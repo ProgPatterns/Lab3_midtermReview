@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="CtZrxecPgvAGzupa3rpV">
-    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="801" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,6 +279,15 @@
         </mxCell>
         <mxCell id="rihcxN5UTjiLVQ_BDiFT-3" value="&lt;span style=&quot;font-weight: 700; text-align: left; font-size: 16px;&quot;&gt;LAB-3&lt;/span&gt;&lt;div style=&quot;font-size: 24px; font-weight: 700; text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 16px; text-wrap-mode: wrap;&quot;&gt;Question-3&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="345" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V6SdO9y3wV_8a_rpXkbe-1" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="17" y="841.61" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V6SdO9y3wV_8a_rpXkbe-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="V6SdO9y3wV_8a_rpXkbe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="63" y="798.61" as="sourcePoint" />
+            <mxPoint x="18" y="839.61" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

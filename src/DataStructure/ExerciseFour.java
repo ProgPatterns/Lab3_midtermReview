@@ -1,3 +1,5 @@
+package DataStructure;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -64,7 +66,7 @@ public class ExerciseFour <T extends Comparable<T>> {
         }
 
         // Insert the new node at the empty spot
-        if (data.compareTo(newNode.data) < 0) {
+        if (data.compareTo(parent.data) < 0) {
             parent.left = newNode;
         } else {
             parent.right = newNode;

@@ -4,11 +4,11 @@ public class LambdaExpression {
 
     public static void main(String[] args) {
         ArrayList<String> words = new ArrayList<>();
-        words.add("boom");
+        words.add("trick or treat");
         words.add("halloween");
         words.add("boo");
         words.add("candy");
-        words.add("casper the ghost");
+        words.add("casper the friendly ghost");
 
         Trimmer trim = (arrayList) -> {
             arrayList.removeLast();

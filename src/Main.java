@@ -1,5 +1,4 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import DataStructure.ExerciseFour;
 public class Main {
     public static void main(String[] args) {
         ExerciseFour<Integer> tree = new ExerciseFour<>();
@@ -10,10 +9,10 @@ public class Main {
         tree.addIterative(80);
         tree.addIterative(12);
 
-        tree.toArray();
+        Object[] array = tree.toArray();
 
-        for(int i = 0; i < tree.toArray().length; i++){
-            System.out.print(tree.toArray()[i] + " ");
+        for(Object value : array){
+            System.out.print(value + " ");
         }
     }
 }

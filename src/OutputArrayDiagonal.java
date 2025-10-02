@@ -9,7 +9,7 @@ public class OutputArrayDiagonal {
                 {'C', 'A', 'B'},
                 {'A', 'A', 'A'},
                 {'B', 'C', 'D'},
-                {'C', 'B', 'D'}
+                {'D', 'D', 'D'}
         };
 
         for(int i = 0; i < array.length; i++){
@@ -23,8 +23,8 @@ public class OutputArrayDiagonal {
         printDiagonal(array);
         System.out.println();
 
-        System.out.println("printing consecutive A");
-        checkAConsecutive(arr);
+        System.out.println("does the 2d array contain 3 consecutive A");
+        System.out.println(checkAConsecutive(arr));
     }
 
     public static void printDiagonal(int [][] array){
@@ -37,17 +37,20 @@ public class OutputArrayDiagonal {
         }
     }
 
-    public static void checkAConsecutive(char [][] arr){
+    public static boolean checkAConsecutive(char [][] arr){
         for(int i = 0; i < arr.length; i++) {
             int counter = 0;
             for (int j = 0; j < arr[i].length; j++) {
                 if (arr[i][j] == 'A') {
                     counter++;
-//                    System.out.print(arr[i][j] + " ");
                 } else {
                     counter = 0;
                 }
             }
+            if (counter == 3) {
+                return true;
+            }
         }
+        return false;
     }
 }
